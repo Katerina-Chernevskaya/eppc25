@@ -64,9 +64,9 @@ European Power Platform Conference | Workshop
 
 ***
 
-## 🧠 Skills You Should Know in Advance
+## 🧠 Skills you should know in advance
 
-### 📕 Required Knowledge (self-assess):
+### 📕 Required knowledge (self-assess):
 
 - Azure Basics
    - Resource groups, networking, key vault, storage accounts ([learn more](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/))
@@ -80,25 +80,25 @@ European Power Platform Conference | Workshop
    - What is Copilot Studio (learn more [here](https://learn.microsoft.com/en-us/training/modules/describe-ai-authoring-experience-power-platform/) and [here](https://github.com/Katerina-Chernevskaya/feature-a-day))
 
 
-### 💡 Optional Pre-Work (Highly Recommended)
+### 💡 Optional pre-work (highly recommended)
 Spend ∼30 minutes completing the following:
 
-🔎 **Lab 1: Environment Prep**
-- Install AZ CLI and VS Code extensions
-- Log into Azure using az login
+🔎 **Lab 1: Environment prep**
+- Install `AZ CLI`, `VS Code`, and `VS Code extensions`
+- Log into Azure using `az login`
 - Check your Azure Cognitive Services usage using Azure CLI:
 ```
 az cognitiveservices usage list -l francecentral --output table
 ```
 
-🤖 **Lab 2: Get Familiar with Copilot Studio**
+🤖 **Lab 2: Get familiar with Copilot Studio**
 - Create a simple Copilot agent in the UI
 - Add a static topic
 - Test the conversation flow
 
 ***
 
-## 📦 What Will Be Provided at the Workshop
+## 📦 What will be provided at the Workshop
 
 ✅ Pre-built Power Platform solution
 
