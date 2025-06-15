@@ -1,0 +1,15 @@
+# Make sure you log out from other tenants
+az logout
+
+# Sign into the Azure CLI
+# EXAMPLE: az login --tenant 00000000-0000-0000-0000-000000000000
+# REPLACE: <YOUR_TENANT_ID>
+az login --tenant <YOUR_TENANT_ID>
+
+# Configure Budgets
+# EXAMPLE: az deployment sub create --name eppc25Budget --location francecentral --template-file ".\budget.bicep" --parameters startDate=2025-06-01 endDate=2025-12-31 contactEmails='[ \"name@domain.com\", \"name@domain.com\", \"name@domain.com\" ]' budgetName=EPPC25-Budget300 amount=300
+# REPLACE: <YOUR_EMAIL>
+az deployment sub create --name eppc25Budget --location francecentral --template-file ".\infra\budget.bicep" --parameters startDate=2025-06-01 endDate=2025-12-31 contactEmails='[ \"<YOUR_EMAIL>\" ]' budgetName=EPPC25-Budget300 amount=300
+
+# Check configured budget
+az consumption budget list
